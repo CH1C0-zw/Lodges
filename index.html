@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashkelda Guest lodge - Exclusive Mountain Escape</title>
+    <!-- Fonts: Playfair Display for headings (Sophistication) and Inter for body (Readability) -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+
+    <!-- ======================= -->
+    <!-- FULL-SCREEN MENU OVERLAY (Casa Angelina Style) -->
+    <!-- ======================= -->
+    <div class="full-menu-overlay" id="menuOverlay">
+        <button class="menu-close" id="menuClose">
+            <!-- Close Icon (X) SVG -->
+            <svg viewBox="0 0 24 24" fill="var(--color-white)"><path d="M18.3 5.71a.996.996 0 0 0-1.41 0L12 10.59 7.11 5.7a.996.996 0 1 0-1.41 1.41L10.59 12l-4.88 4.88a.996.996 0 1 0 1.41 1.41L12 13.41l4.88 4.88a.996.996 0 1 0 1.41-1.41L13.41 12l4.88-4.88a.996.996 0 0 0 0-1.41z"/></svg>
+        </button>
+        
+        <nav>
+            <ul class="menu-list">
+                <li><a href="#rooms">Rooms & Suites</a></li>
+                <li><a href="#gallery">Lodge Gallery</a></li>
+                <li><a href="#experience">The Experience</a></li>
+                <li><a href="#contact">Contact & Location</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- ======================= -->
+    <!-- HERO SECTION (Full-Screen Image Background) -->
+    <!-- ======================= -->
+    <!-- ======================= -->
+<!-- HERO SECTION (Full-Screen Image Background) -->
+<!-- ======================= -->
+<<section id="hero">
+    
+    <!-- Minimalist Header/Controls (Fixed over the image) -->
+    <header class="hero-header">
+        <div class="hero-header-content container">
+            <!-- 1. Menu Dropdown (Top Left) -->
+            <button class="menu-toggle" id="menuToggle">
+                <!-- Hamburger Icon SVG -->
+                <svg viewBox="0 0 24 24" fill="var(--color-white)"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+            </button>
+
+            <!-- 2. CTA Button (Center) -->
+            <a href="#" class="btn btn-primary booking-cta booking-cta-center">Book Your Stay</a>
+            
+            <!-- 3. Social Icons (Top Right) -->
+            <div class="social-icons">
+                <!-- Instagram -->
+                <a href="#" title="Instagram">IG</a>
+                <!-- Facebook -->
+                <a href="#" title="Facebook">FB</a>
+                <!-- Email -->
+                <a href="mailto:reservations@ashkelda.com" title="Email">@</a>
+            </div>
+        </div>
+    </header>
+    
+    <div class="hero-image-bg">
+        <!-- Hero Image Source (The uploaded Background.jpg) -->
+        <img src="Background.jpg" onerror="this.src='https://placehold.co/1920x1080/1E2A3A/FFFFFF?text=Ashkelda+Lodge+Hero'" alt="Ashkelda Guest Lodge Immersive Background">
+    </div>
+    
+    <div class="hero-content">
+        <!-- Hero Logo -->
+        <div class="hero-logo">
+            <img src="image.png" alt="Ashkelda Guest Lodge Logo" onerror="this.src='https://placehold.co/400x400/1E2A3A/FFFFFF?text=Ashkelda+Logo'">
+        </div>
+        <h1>Ashkelda Guest Lodge</h1>
+        <p>A sanctuary of tranquility, perfectly placed within Kwekwe's beautiful suburbs.</p>
+    </div>
+</section>
+
+    <main>
+        <!-- ======================= -->
+        <!-- ROOMS SECTION (Grid Layout) -->
+        <!-- ======================= -->
+        <section id="rooms" class="section">
+            <div class="container">
+                <h2>Our Exclusive Lodging</h2>
+                <p>Choose from our selection of handcrafted cabins and elegantly appointed suites.</p>
+                
+                <div class="room-grid">
+                    <!-- Room Card 1 -->
+                    <article class="room-card">
+                        <!-- Placeholder Image (replace with actual image) -->
+                        <img src="https://placehold.co/600x400/38761D/FFFFFF?text=Forest+View+Cabin" alt="Forest View Cabin Interior">
+                        <div class="room-info">
+                            <h3>Forest View Cabin</h3>
+                            <p>Secluded luxury with a stone fireplace and private deck overlooking the woods.</p>
+                            <a href="#" class="btn" style="background-color: var(--color-accent-primary); color: var(--color-white); padding: 8px 16px;">View Details</a>
+                        </div>
+                    </article>
+                    
+                    <!-- Room Card 2 -->
+                    <article class="room-card">
+                        <!-- Placeholder Image (replace with actual image) -->
+                        <img src="https://placehold.co/600x400/B85C38/FFFFFF?text=Mountain+Suite" alt="Mountain Suite Bedroom">
+                        <div class="room-info">
+                            <h3>Summit Peak Suite</h3>
+                            <p>Expansive views, soaking tub, and custom-made rustic furnishings.</p>
+                            <a href="#" class="btn" style="background-color: var(--color-accent-primary); color: var(--color-white); padding: 8px 16px;">View Details</a>
+                        </div>
+                    </article>
+                    
+                    <!-- Room Card 3 -->
+                    <article class="room-card">
+                        <!-- Placeholder Image (replace with actual image) -->
+                        <img src="https://placehold.co/600x400/1E2A3A/FFFFFF?text=Riverfront+Lodge" alt="Riverfront Lodge Exterior">
+                        <div class="room-info">
+                            <h3>Riverfront Lodge</h3>
+                            <p>Perfect for groups, offering a full kitchen and a dedicated outdoor fire pit.</p>
+                            <a href="#" class="btn" style="background-color: var(--color-accent-primary); color: var(--color-white); padding: 8px 16px;">View Details</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= -->
+        <!-- GALLERY SECTION (Placeholder) -->
+        <!-- ======================= -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2>Moments from the Lodge</h2>
+                <p>Discover the rich textures and serene beauty that await you.</p>
+                
+                <div class="gallery-grid">
+                    <!-- Gallery Item Placeholders -->
+                    <div class="gallery-item" style="background-color: #A0522D;"></div>
+                    <div class="gallery-item" style="background-color: #6B8E23;"></div>
+                    <div class="gallery-item" style="background-color: #4A4A4A;"></div>
+                    <div class="gallery-item" style="background-color: #B8860B;"></div>
+                    <div class="gallery-item" style="background-color: #38761D;"></div>
+                    <div class="gallery-item" style="background-color: #1E2A3A;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ======================= -->
+        <!-- TESTIMONIALS/EXPERIENCE SECTION -->
+        <!-- ======================= -->
+        <section id="experience" class="section" style="background-color: var(--color-white);">
+            <div class="container" style="max-width: 800px;">
+                <h2>An Unforgettable Experience</h2>
+                <blockquote style="font-size: 1.5rem; font-family: var(--font-display); font-weight: 400; font-style: italic; color: var(--color-accent-secondary); margin-bottom: var(--space-md);">
+                    "The quiet was absolute luxury. Every detail, from the bedding to the handcrafted coffee mug, spoke of genuine care and rustic elegance. We can't wait to return."
+                </blockquote>
+                <p style="font-weight: 600;">— The Hendersons, Los Angeles</p>
+                <a href="#" class="btn btn-primary" style="margin-top: var(--space-lg);">Read All Guest Reviews</a>
+            </div>
+        </section>
+
+        <!-- ======================= -->
+<!-- ROOMS SECTION (Grid Layout) -->
+<!-- ======================= -->
+<section id="rooms" class="section">
+  <div class="container">
+      <h2>Our Exclusive Lodging</h2>
+      <p>Choose from our selection of elegantly appointed rooms, each designed for your comfort.</p>
+      
+      <div class="room-grid">
+          <!-- Room Card 1 - Standard Room -->
+          <article class="room-card">
+              <img src="https://placehold.co/600x400/38761D/FFFFFF?text=Standard+Room" alt="Standard Room Interior">
+              <div class="room-info">
+                  <div class="room-header">
+                      <h3>Standard Room</h3>
+                      <div class="room-price">
+                          <span class="price-amount">$50</span>
+                          <span class="price-period">per night</span>
+                      </div>
+                  </div>
+                  <p class="room-description">Comfortable and cozy, perfect for solo travelers or couples seeking a peaceful retreat.</p>
+                  
+                  <div class="room-amenities">
+                      <h4>Amenities</h4>
+                      <ul>
+                          <li>DSTV Subscription</li>
+                          <li>Refrigerator</li>
+                          <li>Air Conditioning</li>
+                          <li>High-Speed WiFi</li>
+                          <li>Microwave</li>
+                          <li>Study Area</li>
+                      </ul>
+                  </div>
+                  
+                  <a href="#booking" class="btn btn-room-cta">Book Now</a>
+              </div>
+          </article>
+          
+          <!-- Room Card 2 - Family Room -->
+          <article class="room-card">
+              <img src="https://placehold.co/600x400/B85C38/FFFFFF?text=Family+Room" alt="Family Room with Two Beds">
+              <div class="room-info">
+                  <div class="room-header">
+                      <h3>Family Room</h3>
+                      <div class="room-price">
+                          <span class="price-amount">$70</span>
+                          <span class="price-period">per night</span>
+                      </div>
+                  </div>
+                  <p class="room-description">Spacious accommodations with two standard beds, ideal for families or small groups.</p>
+                  
+                  <div class="room-amenities">
+                      <h4>Amenities</h4>
+                      <ul>
+                          <li>2 Standard Beds</li>
+                          <li>DSTV Subscription</li>
+                          <li>Refrigerator</li>
+                          <li>Air Conditioning</li>
+                          <li>High-Speed WiFi</li>
+                          <li>Microwave</li>
+                          <li>Study Area</li>
+                      </ul>
+                  </div>
+                  
+                  <a href="#booking" class="btn btn-room-cta">Book Now</a>
+              </div>
+          </article>
+          
+          <!-- Room Card 3 - Executive Room -->
+          <article class="room-card">
+              <img src="https://placehold.co/600x400/1E2A3A/FFFFFF?text=Executive+Room" alt="Executive Room Interior">
+              <div class="room-info">
+                  <div class="room-header">
+                      <h3>Executive Room</h3>
+                      <div class="room-price">
+                          <span class="price-amount">$60</span>
+                          <span class="price-period">per night</span>
+                      </div>
+                  </div>
+                  <p class="room-description">Enhanced comfort with premium furnishings, perfect for business travelers or extended stays.</p>
+                  
+                  <div class="room-amenities">
+                      <h4>Amenities</h4>
+                      <ul>
+                          <li>DSTV Subscription</li>
+                          <li>Refrigerator</li>
+                          <li>Air Conditioning</li>
+                          <li>High-Speed WiFi</li>
+                          <li>Microwave</li>
+                          <li>Study Area</li>
+                      </ul>
+                  </div>
+                  
+                  <a href="#booking" class="btn btn-room-cta">Book Now</a>
+              </div>
+          </article>
+          
+          <!-- Room Card 4 - Presidential Suite -->
+          <article class="room-card room-card-featured">
+              <div class="featured-badge">Premium</div>
+              <img src="https://placehold.co/600x400/8B4513/FFFFFF?text=Presidential+Suite" alt="Presidential Suite">
+              <div class="room-info">
+                  <div class="room-header">
+                      <h3>Presidential Suite</h3>
+                      <div class="room-price">
+                          <span class="price-amount">$150</span>
+                          <span class="price-period">per night</span>
+                      </div>
+                  </div>
+                  <p class="room-description">Our most luxurious offering. Exceptional space, premium amenities, and unparalleled comfort.</p>
+                  
+                  <div class="room-amenities">
+                      <h4>Amenities</h4>
+                      <ul>
+                          <li>DSTV Subscription</li>
+                          <li>Refrigerator</li>
+                          <li>Air Conditioning</li>
+                          <li>High-Speed WiFi</li>
+                          <li>Microwave</li>
+                          <li>Study Area</li>
+                          <li>Premium Furnishings</li>
+                      </ul>
+                  </div>
+                  
+                  <a href="#booking" class="btn btn-room-cta">Book Now</a>
+              </div>
+          </article>
+      </div>
+  </div>
+</section>
+        
+    </main>
+
+    <!-- ======================= -->
+    <!-- FOOTER (Dark for contrast) -->
+    <!-- ======================= -->
+    <footer class="footer" id="contact">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <h4>Contact Us</h4>
+                <p>888-555-LODGE</p>
+                <p>reservations@ashkelda.com</p>
+                <p>123 Mountain View Rd, Wilderness, CA</p>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#rooms">Accommodations</a></li>
+                    <li><a href="#gallery">Amenities</a></li>
+                    <li><a href="#">Cancellation Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Us</h4>
+                <p><a href="#">Instagram</a></p>
+                <p><a href="#">Facebook</a></p>
+            </div>
+            <div class="footer-col">
+                <p>&copy; 2024 Ashkelda Guest lodge</p>
+                <p>Designed with pure HTML/CSS/JS</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+
+</body>
+</html>
